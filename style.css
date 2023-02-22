@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 30px;
+}
+.left {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  padding: 2.5rem;
+  border-radius: 30px;
+  width: 50%;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2.5rem;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+}
+.circle-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.circle-content div h1 {
+  font-weight: 800;
+}
+.great {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right {
+  width: 50%;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: hsl(224, 30%, 27%);
+}
+.right-content {
+  width: 100%;
+}
+.right-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem;
+}
+.light-red {
+  color: hsl(0, 100%, 67%);
+}
+.orange-yellow {
+  color: hsl(39, 100%, 56%);
+}
+.green-teal {
+  color: hsl(166, 100%, 37%);
+}
+.cobalt {
+  color: hsl(234, 85%, 45%);
+}
+.rl {
+  display: flex;
+  align-items: center;
+}
+svg {
+  margin-right: 0.7rem;
+}
+.continue {
+}
+span {
+  color: hsl(241, 100%, 89%);
+}
+button {
+  color: #fff;
+  border-radius: 50px;
+  background-color: hsl(224, 30%, 27%);
+  border: none;
+  margin-top: 3rem;
+  width: 100%;
+  height: 3rem;
+}
+h2 {
+  color: hsl(224, 30%, 27%);
+}
+h1 {
+  /* font-size: 60px; */
+}
+p {
+  font-size: 18px;
+}
