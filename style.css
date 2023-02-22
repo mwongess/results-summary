@@ -43,11 +43,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  justify-content: center;
+  width: 10rem;
+
 }
-.circle-content div h1 {
-  font-weight: 800;
-}
+
 .great {
   display: flex;
   flex-direction: column;
@@ -69,9 +69,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.4rem;
-  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 0.7rem;
   border-radius: 5px;
+  height: 3.5rem;
 }
 .light-red {
   color: hsl(0, 100%, 67%);
